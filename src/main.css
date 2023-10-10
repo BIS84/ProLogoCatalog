@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* card */
+.card {
+    @apply flex flex-col 
+    w-card-width h-card-height
+    pt-4 px-4 
+    border-2 rounded-2xl border-castom-gray;
+}
+
+.cardImg {
+    @apply w-full h-card-img-height px-4 rounded-2xl bg-cover;
+}
+
+.cardText {
+    @apply flex flex-col gap-2;
+}
+
+.cardPrice {
+    @apply font-bold text-center text-castom-H3 text-castom-red;
+}
+
+.cardName {
+    @apply font-bold text-center text-castom-p text-castom-black;
+}
+
+.cardDescription {
+    @apply font-bold text-center text-castom-p-small text-castom-grayDark;
+}
+
+h2 {
+    font-size: 24px;
+}
