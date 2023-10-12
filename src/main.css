@@ -19,7 +19,7 @@
 }
 
 .cardPrice {
-    @apply font-bold text-center text-castom-H3 text-castom-red dark:text-;
+    @apply font-bold text-center text-castom-H3 text-castom-red dark:text-red-700;
 }
 
 .cardName {
